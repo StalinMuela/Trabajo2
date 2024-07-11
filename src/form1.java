@@ -58,5 +58,14 @@ public class form1 {
             }
 
         });
+        borrarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                textField1.setText("");
+                textField2.setText("");
+                textField3.setText("");
+                textField4.setText("");
+            }
+        });
     }
 }
